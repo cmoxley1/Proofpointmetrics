@@ -55,7 +55,7 @@ text2 = text.replace("<html xmlns=\"http://www.w3.org/1999/xhtml\"><head></head>
 string = text2
 #  the string var gets split and assigned to a new var 
 splitstring = string.split()
-# Stefan Morris help me with this section. I gues it makes a list of lists. I still need to take the time to understand it. 
+
 listolists = []
 for i in range(0, len(splitstring), 2):
      x = []
